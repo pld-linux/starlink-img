@@ -5,7 +5,8 @@ Version:	1.3_1.218
 Release:	1
 License:	GPL
 Group:		Libraries
-Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/img/img.tar.Z
+#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/img/img.tar.Z
+Source0:	img.tar.Z
 # Source0-md5:	cf2ee9e2c8a6b23314493c57615af049
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_IMG.html
 BuildRequires:	gcc-g77
