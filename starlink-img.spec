@@ -30,7 +30,7 @@ powi±zanych informacji z nag³ówków. Jest tak zaprojektowana, by by³a
 Summary:	Header files for IMG library
 Summary(pl):	Pliki nag³ówkowe biblioteki IMG
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ndf-devel
 
 %description devel
@@ -43,7 +43,7 @@ Pliki nag³ówkowe biblioteki IMG.
 Summary:	Static Starlink IMG library
 Summary(pl):	Statyczna biblioteka Starlink IMG
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink IMG library.
