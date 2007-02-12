@@ -1,5 +1,5 @@
 Summary:	IMG - simple image data access
-Summary(pl.UTF-8):   IMG - prosty dostęp do danych z obrazów
+Summary(pl.UTF-8):	IMG - prosty dostęp do danych z obrazów
 Name:		starlink-img
 Version:	1.3_1.218
 Release:	1
@@ -28,7 +28,7 @@ powiązanych informacji z nagłówków. Jest tak zaprojektowana, by była
 
 %package devel
 Summary:	Header files for IMG library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki IMG
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki IMG
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ndf-devel
@@ -41,7 +41,7 @@ Pliki nagłówkowe biblioteki IMG.
 
 %package static
 Summary:	Static Starlink IMG library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink IMG
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink IMG
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
