@@ -1,5 +1,5 @@
 Summary:	IMG - simple image data access
-Summary(pl):	IMG - prosty dost阷 do danych z obraz體
+Summary(pl.UTF-8):   IMG - prosty dost臋p do danych z obraz贸w
 Name:		starlink-img
 Version:	1.3_1.218
 Release:	1
@@ -21,14 +21,14 @@ IMG is a subroutine library for accessing astronomical image data and
 associated header information. It is designed to be easy to use and
 understand.
 
-%description -l pl
-IMG to biblioteka funkcji dost阷u do danych obraz體 astronomicznych i
-powi眤anych informacji z nag丑wk體. Jest tak zaprojektowana, by by砤
-砤twa w u縴ciu i do zrozumienia.
+%description -l pl.UTF-8
+IMG to biblioteka funkcji dost臋pu do danych obraz贸w astronomicznych i
+powi膮zanych informacji z nag艂贸wk贸w. Jest tak zaprojektowana, by by艂a
+艂atwa w u偶yciu i do zrozumienia.
 
 %package devel
 Summary:	Header files for IMG library
-Summary(pl):	Pliki nag丑wkowe biblioteki IMG
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki IMG
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-ndf-devel
@@ -36,19 +36,19 @@ Requires:	starlink-ndf-devel
 %description devel
 Header files for IMG library.
 
-%description devel -l pl
-Pliki nag丑wkowe biblioteki IMG.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe biblioteki IMG.
 
 %package static
 Summary:	Static Starlink IMG library
-Summary(pl):	Statyczna biblioteka Starlink IMG
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink IMG
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink IMG library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink IMG.
 
 %prep
